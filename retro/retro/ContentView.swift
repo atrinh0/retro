@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let menuTitles = ["", "File", "Edit", "Goodies", "Font", "FontSize", "Style"]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack {
+            ForEach(menuTitles, id: \.self) { menuTitle in
+                Text(menuTitle)
+            }
+            .font(Font.body.bold())
+        }
     }
 }
 

@@ -19,6 +19,7 @@
 		FCC658D026767A0100EF2108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCC658D226767A0100EF2108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC658D526767A0100EF2108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCC658DE2676857100EF2108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		FCC658CD26767A0100EF2108 /* retro */ = {
 			isa = PBXGroup;
 			children = (
+				FCC658DE2676857100EF2108 /* Info.plist */,
 				FCC658CE26767A0100EF2108 /* retroApp.swift */,
 				FCC658D026767A0100EF2108 /* ContentView.swift */,
 				FCC658D226767A0100EF2108 /* Assets.xcassets */,
@@ -272,6 +274,10 @@
 				DEVELOPMENT_TEAM = 6DRH5697SN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = retro/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = retro;
+				INFOPLIST_KEY_CFBundleName = retro;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +308,10 @@
 				DEVELOPMENT_TEAM = 6DRH5697SN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = retro/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = retro;
+				INFOPLIST_KEY_CFBundleName = retro;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
