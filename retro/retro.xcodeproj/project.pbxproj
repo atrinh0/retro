@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5AF673267778FA00AA1190 /* FA-Sysfont-C.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC5AF672267778FA00AA1190 /* FA-Sysfont-C.otf */; };
 		FCC658CF26767A0100EF2108 /* retroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC658CE26767A0100EF2108 /* retroApp.swift */; };
 		FCC658D126767A0100EF2108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC658D026767A0100EF2108 /* ContentView.swift */; };
 		FCC658D326767A0100EF2108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC658D226767A0100EF2108 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC5AF672267778FA00AA1190 /* FA-Sysfont-C.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FA-Sysfont-C.otf"; sourceTree = "<group>"; };
 		FCC658CB26767A0100EF2108 /* retro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC658CE26767A0100EF2108 /* retroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retroApp.swift; sourceTree = "<group>"; };
 		FCC658D026767A0100EF2108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC5AF66F267776EC00AA1190 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC5AF672267778FA00AA1190 /* FA-Sysfont-C.otf */,
+			);
+			path = fonts;
+			sourceTree = SOURCE_ROOT;
+		};
 		FCC658C226767A0100EF2108 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		FCC658CD26767A0100EF2108 /* retro */ = {
 			isa = PBXGroup;
 			children = (
+				FC5AF66F267776EC00AA1190 /* fonts */,
 				FCC658DE2676857100EF2108 /* Info.plist */,
 				FCC658CE26767A0100EF2108 /* retroApp.swift */,
 				FCC658D026767A0100EF2108 /* ContentView.swift */,
@@ -128,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC658D626767A0100EF2108 /* Preview Assets.xcassets in Resources */,
+				FC5AF673267778FA00AA1190 /* FA-Sysfont-C.otf in Resources */,
 				FCC658D326767A0100EF2108 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +293,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +306,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,9 +328,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +341,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

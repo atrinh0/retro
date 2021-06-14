@@ -4,5 +4,9 @@
 <dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FA-Sysfont-C.otf</string>
+	</array>
 </dict>
 </plist>
